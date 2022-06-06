@@ -6,7 +6,7 @@ public class hello {
         System.out.println("hello"+"world");
         System.out.println('h' + 'e');
         System.out.println("egoing said: \"Welcome program world\"");// "를 문자로 인식하기위해 \"를 사용
-        System.out.println("egoing said:\n Welcome\n program world"); // \n -> 줄바꿈
+        System.out.println("egoing said:\n Welcome\n program world"); // \n -> 줄바꿈 //20
 
     }
 }
