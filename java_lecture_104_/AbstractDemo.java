@@ -15,7 +15,7 @@ class B extends A1{// 상속
 }
 public class AbstractDemo {
     public static void main(String[] args){
-//        A1 obj = new A();// 추상클래스는 반드시 상송으로 사용
+//        A1 obj = new A();// 추상클래스는 반드시 상속으로 사용
         B obj = new B();
     }
 }
