@@ -3,8 +3,8 @@ class DivideException extends RuntimeException{
     DivideException(){// 기본생성자
         super();
     }
-    DivideException(String message){
-        super(message);
+    DivideException(String mesage){
+        super(mesage);
     }
 }
 class DivideException2 extends Exception{
@@ -26,7 +26,7 @@ class Calculator_Demo{
 //        if (right == 0) {
 //            throw new DivideException("error : number/0");// 실행시 함수 종료
 //        }// 나누는 상황에 0으로 나누면 발생
-        if (right == 0) {
+        if (this.right == 0) {
             try {
                 throw new DivideException2("error : number/0!!");
             } catch (DivideException2 e) {
